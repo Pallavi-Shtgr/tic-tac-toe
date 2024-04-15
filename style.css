@@ -56,18 +56,22 @@ body{
   color: #fff;
   outline: none;
   cursor: pointer;
-  transition: all 0.3s ease;
+  tra
+  nsition: all 0.3s ease;
 }
 .options button:hover,
 .btn button:hover{
   transform: scale(0.96);
 }
+
 .options button.playerX{
   margin-right: 5px;
 }
+
 .options button.playerO{
   margin-left: 5px;
 }
+
 .select-box .credit{
   text-align: center;
   margin-top: 20px;
