@@ -162,10 +162,12 @@ body{
 .play-area{
   margin-top: 20px;
 }
+
 .play-area section{
   display: flex;
   margin-bottom: 1px;
 }
+
 .play-area section span{
   display: block;
   height: 90px;
