@@ -78,10 +78,13 @@ body{
   font-size: 18px;
   font-weight: 500;
 }
+
+
 .select-box .credit a{
   color: #56baed;
   text-decoration: none;
 }
+
 .select-box .credit a:hover{
   text-decoration: underline;
 }
@@ -120,16 +123,19 @@ body{
   user-select: none;
   transition: all 0.3 ease;
 }
+
+
 .players.active span:first-child{
   color: #fff;
 }
-.players.active span:last-child{
-  color: #56baed;
-}
-.players span:first-child{
-  color: #fff;
-}
-.players .slider{
+
+  .players.active span:last-child{
+    color: #56baed;
+  }
+  .players span:first-child{
+    color: #fff;
+  }
+  .players .slider{
   position: absolute;
   top: 0;
   left: 0;
@@ -139,9 +145,11 @@ body{
   border-radius: 5px;
   transition: all 0.3s ease;
 }
+
 .players.active .slider{
   left: 50%;
 }
+
 .players.active span:first-child{
   color: #56baed;
 }
