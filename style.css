@@ -71,6 +71,7 @@
   .options button.playerX{
     margin-right: 5px;
   }
+
   .options button.playerO{
     margin-left: 5px;
   }
@@ -125,6 +126,7 @@
   .players.active span:first-child{
     color: #fff;
   }
+  
   .players.active span:last-child{
     color: #56baed;
   }
