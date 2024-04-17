@@ -126,7 +126,7 @@
   .players.active span:first-child{
     color: #fff;
   }
-  
+
   .players.active span:last-child{
     color: #56baed;
   }
@@ -152,16 +152,20 @@
   .players.active span:nth-child(2){
     color: #fff;
   }
+
   .players.active .slider{
     left: 50%;
   }
+
   .play-area{
     margin-top: 20px;
   }
+
   .play-area section{
     display: flex;
     margin-bottom: 1px;
   }
+
   .play-area section span{
     display: block;
     height: 90px;
@@ -175,6 +179,7 @@
     background: #fff;
   }
 
+
   .result-box{
     padding: 25px 20px;
     border-radius: 5px;
@@ -186,6 +191,7 @@
     pointer-events: none;
     transform: translate(-50%, -50%) scale(0.9);
   }
+
   .result-box.show{
     opacity: 1;
     pointer-events: auto;
@@ -197,6 +203,7 @@
     display: flex;
     justify-content: center;
   }
+  
   .result-box .won-text p{
     font-weight: 600;
     margin: 0 5px;
