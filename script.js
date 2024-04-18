@@ -14,3 +14,19 @@ window.onload = ()=>{
     }
 }
 
+selectBtnX.onclick = ()=>{
+    selectBox.classList.add("hide");
+    playBoard.classList.add("show");
+}
+
+selectBtnO.onclick = ()=>{ 
+    selectBox.classList.add("hide");
+    playBoard.classList.add("show");
+    players.setAttribute("class", "players active player");
+}
+
+let playerXIcon = "fas fa-times",
+playerOIcon = "far fa-circle",
+playerSign = "X",
+runBot = true;
+
