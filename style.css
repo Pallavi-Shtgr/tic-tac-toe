@@ -64,10 +64,12 @@
     cursor: pointer;
     transition: all 0.3s ease;
   }
+
   .options button:hover,
   .btn button:hover{
     transform: scale(0.96);
   }
+
   .options button.playerX{
     margin-right: 5px;
   }
@@ -75,12 +77,14 @@
   .options button.playerO{
     margin-left: 5px;
   }
+
   .select-box .credit{
     text-align: center;
     margin-top: 20px;
     font-size: 18px;
     font-weight: 500;
   }
+
   .select-box .credit a{
     color: #99d0ec;
     text-decoration: none;
@@ -94,22 +98,26 @@
     pointer-events: none;
     transform: translate(-50%, -50%) scale(0.9);
   }
+
   .play-board.show{
     opacity: 1;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
   }
+
   .play-board .details{
     padding: 7px;
     border-radius: 5px;
     background: #fff;
   }
+
   .play-board .players{
     width: 100%;
     display: flex;
     position: relative;
     justify-content: space-between;
   }
+
   .players span{
     position: relative;
     z-index: 2;
@@ -123,6 +131,7 @@
     user-select: none;
     transition: all 0.3 ease;
   }
+  
   .players.active span:first-child{
     color: #fff;
   }
