@@ -82,7 +82,7 @@
     font-weight: 500;
   }
   .select-box .credit a{
-    color: #56baed;
+    color: #99d0ec;
     text-decoration: none;
   }
   .select-box .credit a:hover{
@@ -113,7 +113,7 @@
   .players span{
     position: relative;
     z-index: 2;
-    color: #56baed;
+    color: #94c3db;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 0;
