@@ -8,12 +8,12 @@
 
   ::selection{
     color: #fff;
-    background:#56baed;
+    background:#bfe6a9;
   }
 
   body
   {
-    background:#56baed;
+    background:#bdeec2;
   }
 
   .select-box, .play-board, .result-box{
@@ -57,7 +57,7 @@
     font-weight: 500;
     padding: 10px 0;
     border: none;
-    background: #56baed;
+    background: #89d7d2;
     border-radius: 5px;
     color: #fff;
     outline: none;
