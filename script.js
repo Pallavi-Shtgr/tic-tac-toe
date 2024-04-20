@@ -59,6 +59,7 @@ function bot(){
                 array.push(i);
             }
         }
+        
         let randomBox = array[Math.floor(Math.random() * array.length)];
         if(array.length > 0){
             if(players.classList.contains("player")){ 
