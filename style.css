@@ -148,7 +148,7 @@
     left: 0;
     width: 50%;
     height: 100%;
-    background: #56baed;
+    background: #56dbed;
     border-radius: 5px;
     transition: all 0.3s ease;
   }
@@ -156,7 +156,7 @@
     left: 50%;
   }
   .players.active span:first-child{
-    color: #56baed;
+    color: #94eaef;
   }
   .players.active span:nth-child(2){
     color: #fff;
@@ -180,7 +180,7 @@
     height: 90px;
     width: 90px;
     margin: 2px;
-    color: #56baed;
+    color: #56ed90;
     font-size: 40px;
     line-height: 80px;
     text-align: center;
@@ -228,7 +228,7 @@
     font-weight: 500;
     padding: 8px 20px;
     border: none;
-    background: #56baed;
+    background: #170101;
     border-radius: 5px;
     color: #fff;
     outline: none;
