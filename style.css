@@ -7,13 +7,13 @@
   }
 
   ::selection{
-    color: #fff;
-    background:#bfe6a9;
+    color: #f1e9e9;
+    background:#ebc0dc;
   }
 
   body
   {
-    background:#bdeec2;
+    background:#f7d6ee;
   }
 
   .select-box, .play-board, .result-box{
@@ -180,7 +180,7 @@
     height: 90px;
     width: 90px;
     margin: 2px;
-    color: #56ed90;
+    color: #000000;
     font-size: 40px;
     line-height: 80px;
     text-align: center;
